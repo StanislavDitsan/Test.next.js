@@ -17,11 +17,17 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background: #ebf0fa;
+  @apply text-gray-500 m-8;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* nav styles */
+nav {
+  @apply pb-4 border-b-2 border-gray-200 flex items-center gap-5 my-1 mx-auto max-w-5xl;
 }
