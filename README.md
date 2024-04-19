@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## json-server
+
+The command json-server --watch --port 4000 ./_data/db.json is used to start the json-server with specific options and configurations:
+
+json-server: This is the command to run the json-server package.
+
+--watch: This option tells json-server to watch for changes in the JSON file (db.json) and automatically reload the server if the file is modified.
+
+--port 4000: This option specifies the port number (4000 in this case) on which json-server will run and listen for incoming HTTP requests.
+
+./_data/db.json: This is the path to the JSON file (db.json) that contains the data you want json-server to serve as a RESTful API.

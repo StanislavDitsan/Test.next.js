@@ -31,3 +31,41 @@ body {
 nav {
   @apply pb-4 border-b-2 border-gray-200 flex items-center gap-5 my-1 mx-auto max-w-5xl;
 }
+
+/* card styles */
+.card {
+  @apply bg-white shadow-sm py-3 px-4 my-4 relative overflow-hidden;
+}
+
+.card h3 {
+  @apply font-bold text-gray-700 text-sm mb-0;
+}
+
+.card p {
+  @apply my-4 text-sm leading-6;
+}
+
+/* pill styles */
+.pill {
+  @apply py-1 px-2 mt-3 inline-block text-xs font-semibold;
+}
+
+.pill.high {
+  @apply bg-red-300 text-red-600;
+}
+
+.pill.medium {
+  @apply bg-blue-300 text-blue-600;
+}
+
+.pill.low {
+  @apply bg-emerald-300 text-emerald-600;
+}
+
+.card .pill {
+  @apply absolute bottom-0 right-0 rounded-tl-sm;
+}
+
+.main {
+  @apply max-w-6xl my-12 mx-auto px-5;
+}
