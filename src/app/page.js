@@ -1,4 +1,5 @@
 import React from 'react';
+import CardCity from './components/cardcity';
 
 export default function Home() {
   return (
@@ -48,7 +49,7 @@ export default function Home() {
           </figure>
         </div>
       </section>
-
+      <CardCity/>
     </main>
 
   );

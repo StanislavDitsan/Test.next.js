@@ -13,7 +13,7 @@ export default function Tickets() {
                 <TicketList/>
                 <a
                     href="/"
-                    className="bg-white text-primary font-semibold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
+                    className="inline-block bg-white text-gray-800 hover:bg-emerald-300 py-2 px-4 rounded transition duration-300"
                 >
                     Back
                 </a>
